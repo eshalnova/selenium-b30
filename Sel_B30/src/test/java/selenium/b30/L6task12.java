@@ -58,6 +58,6 @@ public class L6task12 extends TestBase {
                 break;
             }
         }
+        driver.quit();
     }
-
 }

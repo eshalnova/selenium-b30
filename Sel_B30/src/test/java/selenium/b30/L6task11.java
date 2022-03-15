@@ -13,7 +13,7 @@ import java.util.Random;
 public class L6task11 extends TestBase {
 
     @Test
-    public void createAccountTest(){
+    public void l6task11(){
 
         /*Задаем данные для пользователя*/
         String taxId = "64523", company = "Poison Ivy Corp.";
@@ -53,5 +53,6 @@ public class L6task11 extends TestBase {
         driver.findElement(By.cssSelector("button[name=login]")).click();
         /*Снова выходим из аккаунта*/
         driver.findElement(By.linkText("Logout")).click();
+        driver.quit();
     }
 }
