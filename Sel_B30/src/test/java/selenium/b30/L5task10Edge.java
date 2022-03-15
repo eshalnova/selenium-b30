@@ -2,17 +2,28 @@ package selenium.b30;
 
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class L5task10 extends TestBase{
+public class L5task10Edge {
 
     @Test
-    public void l5task10(){
 
-        user("http://localhost/litecart/",  "Online Store | My Store");
+    public void l5task10() {
 
-        WebElement product = driver.findElement(By.cssSelector("div[id = box-campaigns] li.product:nth-child(1)")); // первый товар блока Campaigns
+        /*Открываем браузер, нужную страницу*/
+        WebDriver driverE = new EdgeDriver();
+        WebDriverWait wait = new WebDriverWait(driverE, 10);
+        driverE.get("http://localhost/litecart/");
+        wait.until(ExpectedConditions.titleIs("Online Store | My Store"));
+
+        WebElement product = driverE.findElement(By.cssSelector("div[id = box-campaigns] li.product:nth-child(1)")); // первый товар блока Campaigns
 
         /*Получаем и сохраняем для сравнения данные товара на главной странице*/
         String productLink = product.findElement(By.cssSelector(".link")).getAttribute("href");  // ссылка на страницу товара
@@ -29,10 +40,10 @@ public class L5task10 extends TestBase{
         product.click();//переходим на страницу товара
 
         /*Получаем и сохраняем для сравнения данные товара на странице товара*/
-        String productLinkP = driver.getCurrentUrl();//получаем ссылку на текущую страницу
-        String productNameP = driver.findElement(By.cssSelector("#box-product .title")).getAttribute("textContent");// название товара
-        WebElement regularPriceP = driver.findElement(By.cssSelector("#box-product .regular-price"));//элемент с обычной ценой товара
-        WebElement campaignPriceP = driver.findElement(By.cssSelector("#box-product .campaign-price"));//элемент с акционной ценой товара
+        String productLinkP = driverE.getCurrentUrl();//получаем ссылку на текущую страницу
+        String productNameP = driverE.findElement(By.cssSelector("#box-product .title")).getAttribute("textContent");// название товара
+        WebElement regularPriceP = driverE.findElement(By.cssSelector("#box-product .regular-price"));//элемент с обычной ценой товара
+        WebElement campaignPriceP = driverE.findElement(By.cssSelector("#box-product .campaign-price"));//элемент с акционной ценой товара
         String regularPriceValueP = regularPriceP.getAttribute("textContent");//обычная цена товара (значение)
         String campaignPriceValueP = campaignPriceP.getAttribute("textContent");//акционная цена товара (значение)
         String regularPriceClassP = regularPriceP.getAttribute("class");//получаем класс для обычной цены товара
