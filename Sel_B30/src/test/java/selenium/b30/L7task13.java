@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.*;
 import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 
-public class L7task13 extends TestBase{
+public class  L7task13 extends TestBase{
 
     @Test
     public void l7task13(){

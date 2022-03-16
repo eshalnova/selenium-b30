@@ -31,9 +31,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="PLAIN_TEXT" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="selenium.b30.task19" />
       <recent name="selenium.b30" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -41,23 +43,23 @@
       <recent name="selenium.b30.files" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.L5task9">
-    <configuration name="L5task10Chrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.L11task19">
+    <configuration name="L11task19" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sel_B30" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.b30.*" />
+          <option name="PATTERN" value="selenium.b30.task19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="selenium.b30" />
-      <option name="MAIN_CLASS_NAME" value="selenium.b30.L5task10Chrome" />
+      <option name="PACKAGE_NAME" value="selenium.b30.task19" />
+      <option name="MAIN_CLASS_NAME" value="selenium.b30.task19.L11task19" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L5task10Edge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="L4task6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sel_B30" />
       <extension name="coverage">
         <pattern>
@@ -66,22 +68,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="selenium.b30" />
-      <option name="MAIN_CLASS_NAME" value="selenium.b30.L5task10Edge" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="L5task10Firefox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sel_B30" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.b30.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.b30" />
-      <option name="MAIN_CLASS_NAME" value="selenium.b30.L5task10Firefox" />
+      <option name="MAIN_CLASS_NAME" value="selenium.b30.L4task6" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,7 +78,7 @@
       <module name="Sel_B30" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.b30.*" />
+          <option name="PATTERN" value="selenium.b30.task19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,7 +93,7 @@
       <module name="Sel_B30" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.b30.*" />
+          <option name="PATTERN" value="selenium.b30.task19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,20 +104,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="L7task13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sel_B30" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.b30.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.b30" />
+      <option name="MAIN_CLASS_NAME" value="selenium.b30.L7task13" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.L5task10Chrome" />
-      <item itemvalue="JUnit.L5task10Firefox" />
-      <item itemvalue="JUnit.L5task10Edge" />
       <item itemvalue="JUnit.L5task8p1" />
       <item itemvalue="JUnit.L5task9" />
+      <item itemvalue="JUnit.L11task19" />
+      <item itemvalue="JUnit.L7task13" />
+      <item itemvalue="JUnit.L4task6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.L11task19" />
+        <item itemvalue="JUnit.L4task6" />
+        <item itemvalue="JUnit.L7task13" />
         <item itemvalue="JUnit.L5task9" />
         <item itemvalue="JUnit.L5task8p1" />
-        <item itemvalue="JUnit.L5task10Edge" />
-        <item itemvalue="JUnit.L5task10Firefox" />
-        <item itemvalue="JUnit.L5task10Chrome" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +151,7 @@
       <workItem from="1647243788034" duration="8593000" />
       <workItem from="1647252671128" duration="25674000" />
       <workItem from="1647327225352" duration="17377000" />
-      <workItem from="1647413520728" duration="4996000" />
+      <workItem from="1647413520728" duration="18457000" />
     </task>
     <servers />
   </component>
