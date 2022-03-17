@@ -38,10 +38,11 @@ public class L6task11 extends TestBase {
 
         Select countryName = new Select(driver.findElement(By.cssSelector("select[name=country_code]")));
         countryName.selectByValue("US");
-        wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("select[name=zone_code]")));
+        wait.until(ExpectedConditions.textToBePresentInElementLocated(By.cssSelector("select[name=zone_code]"),"Alabama"));
 
         Select zoneName = new Select(driver.findElement(By.cssSelector("select[name=zone_code]")));
-        zoneName.selectByValue("VA");
+        zoneName.selectByValue("AP");
+
         //driver.findElement(By.cssSelector("select[name=zone_code]")).sendKeys(Keys.ENTER);
         /*Заполняем оставшиеся поля*/
         driver.findElement(By.cssSelector("input[name=phone]")).sendKeys(phone);
