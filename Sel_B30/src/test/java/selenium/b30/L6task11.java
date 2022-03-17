@@ -7,6 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 
 import java.util.Random;
 
@@ -34,10 +35,14 @@ public class L6task11 extends TestBase {
         driver.findElement(By.cssSelector("input[name=postcode]")).sendKeys(postcode);
         /*Заполняем страну и штат*/
         driver.findElement(By.cssSelector("input[name=city]")).sendKeys(city);
-        WebElement select = driver.findElement(By.cssSelector("select[name=country_code]"));
-        select.sendKeys("United States" + Keys.ENTER);
+
+        Select countryName = new Select(driver.findElement(By.cssSelector("select[name=country_code]")));
+        countryName.selectByValue("US");
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("select[name=zone_code]")));
-        driver.findElement(By.cssSelector("select[name=zone_code]")).sendKeys(Keys.ENTER);
+
+        Select zoneName = new Select(driver.findElement(By.cssSelector("select[name=zone_code]")));
+        zoneName.selectByValue("VA");
+        //driver.findElement(By.cssSelector("select[name=zone_code]")).sendKeys(Keys.ENTER);
         /*Заполняем оставшиеся поля*/
         driver.findElement(By.cssSelector("input[name=phone]")).sendKeys(phone);
         driver.findElement(By.cssSelector("input[name=email]")).sendKeys(email);

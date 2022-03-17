@@ -7,13 +7,14 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.io.File;
 import java.util.List;
+import java.util.Random;
 
 public class L6task12 extends TestBase {
 
     @Test
     public void l6task12(){
 
-        String productName = "Test Duck"; //Задаем имя создаваемого элемента
+        String productName =  "Test " + new Random().nextInt(1000)+ " Duck " + new Random().nextInt(1000); //Задаем имя создаваемого элемента
 
         authorization("http://localhost/litecart/admin/login.php", "admin", "admin", "My Store");//авторизация в админке
 

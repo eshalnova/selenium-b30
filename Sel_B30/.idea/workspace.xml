@@ -43,7 +43,7 @@
       <recent name="selenium.b30.files" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.L11task19">
+  <component name="RunManager" selected="JUnit.L6task12">
     <configuration name="L11task19" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sel_B30" />
       <extension name="coverage">
@@ -74,31 +74,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L5task8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="L6task11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sel_B30" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.b30.task19.*" />
+          <option name="PATTERN" value="selenium.b30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="selenium.b30" />
-      <option name="MAIN_CLASS_NAME" value="selenium.b30.L5task8" />
+      <option name="MAIN_CLASS_NAME" value="selenium.b30.L6task11" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="L5task9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="L6task12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sel_B30" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.b30.task19.*" />
+          <option name="PATTERN" value="selenium.b30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="selenium.b30" />
-      <option name="MAIN_CLASS_NAME" value="selenium.b30.L5task9" />
+      <option name="MAIN_CLASS_NAME" value="selenium.b30.L6task12" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,19 +120,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.L5task8p1" />
-      <item itemvalue="JUnit.L5task9" />
       <item itemvalue="JUnit.L11task19" />
       <item itemvalue="JUnit.L7task13" />
       <item itemvalue="JUnit.L4task6" />
+      <item itemvalue="JUnit.L6task11" />
+      <item itemvalue="JUnit.L6task12" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.L6task12" />
+        <item itemvalue="JUnit.L6task11" />
         <item itemvalue="JUnit.L11task19" />
         <item itemvalue="JUnit.L4task6" />
         <item itemvalue="JUnit.L7task13" />
-        <item itemvalue="JUnit.L5task9" />
-        <item itemvalue="JUnit.L5task8p1" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +151,8 @@
       <workItem from="1647243788034" duration="8593000" />
       <workItem from="1647252671128" duration="25674000" />
       <workItem from="1647327225352" duration="17377000" />
-      <workItem from="1647413520728" duration="18457000" />
+      <workItem from="1647413520728" duration="18518000" />
+      <workItem from="1647518783735" duration="1255000" />
     </task>
     <servers />
   </component>
